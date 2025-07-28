@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Painel de Controle</h1>
+        <a href="dashboard.html" class="admin-btn">Voltar</a>
+    </header>
+
+    <div class="admin-panel">
+        <h2>Gerenciar Cursos</h2>
+        <div class="course-control">
+            <div class="course-item">
+                <span>Curso 1</span>
+                <button class="toggle-btn" data-id="1">Bloquear</button>
+            </div>
+            <div class="course-item">
+                <span>Curso 2</span>
+                <button class="toggle-btn" data-id="2">Liberar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
